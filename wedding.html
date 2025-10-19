@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding Invitation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Wedding Invitation</h1>
+  </header>
+
+  <section id="invitation">
+    <div id="invitation-text">
+      <h2 id="bride-name">[Bride Name]</h2> & <h2 id="groom-name">[Groom Name]</h2>
+      <p id="wedding-date">Invite you to join them in celebrating their wedding on</p>
+      <p id="date-time">[Wedding Date] at [Wedding Time]</p>
+      <p id="venue">At [Venue Name], [Venue Location]</p>
+    </div>
+  </section>
+
+  <section id="edit-form">
+    <h3>Edit Your Invitation</h3>
+    <form id="invitationForm">
+      <label for="bride">Bride's Name:</label>
+      <input type="text" id="bride" name="bride" placeholder="Bride's Name">
+      <br>
+      
+      <label for="groom">Groom's Name:</label>
+      <input type="text" id="groom" name="groom" placeholder="Groom's Name">
+      <br>
+
+      <label for="weddingDate">Wedding Date:</label>
+      <input type="text" id="weddingDate" name="weddingDate" placeholder="Wedding Date">
+      <br>
+
+      <label for="weddingTime">Wedding Time:</label>
+      <input type="text" id="weddingTime" name="weddingTime" placeholder="Wedding Time">
+      <br>
+
+      <label for="venue">Venue Name:</label>
+      <input type="text" id="venue" name="venue" placeholder="Venue Name">
+      <br>
+
+      <label for="venueLocation">Venue Location:</label>
+      <input type="text" id="venueLocation" name="venueLocation" placeholder="Venue Location">
+      <br>
+
+      <button type="button" onclick="updateInvitation()">Update Invitation</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  color: #d6336c;
+}
+
+#invitation {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#invitation-text h2 {
+  font-size: 2em;
+  color: #007bff;
+}
+
+#invitation-text p {
+  font-size: 1.2em;
+}
+
+#edit-form {
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: grid;
+  gap: 15px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1em;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
